@@ -1,0 +1,46 @@
+name: Feature request
+description: New functionality for AI implementation
+title: "[FEATURE] "
+labels: ["feature"]
+
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Business context
+      description: Why do we need this feature?
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: What should be implemented?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - User can...
+        - System should...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Out of scope
+
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical notes
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Screenshots and references
